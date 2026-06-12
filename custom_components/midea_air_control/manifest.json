@@ -1,0 +1,11 @@
+{
+  "domain": "midea_air_control",
+  "name": "Midea Air Control",
+  "codeowners": ["@mbb842"],
+  "config_flow": true,
+  "dependencies": ["http"],
+  "documentation": "https://github.com/mbb842/midea_air_control",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mbb842/midea_air_control/issues",
+  "version": "1.0.0"
+}
