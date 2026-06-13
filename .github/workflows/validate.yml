@@ -17,6 +17,9 @@ jobs:
         uses: hacs/action@main
         with:
           category: integration
+          # Skip the brands check until the icon PR is merged into
+          # home-assistant/brands. Remove this line once it is merged.
+          ignore: brands
 
   hassfest:
     name: Hassfest validation
