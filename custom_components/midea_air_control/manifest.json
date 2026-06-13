@@ -7,5 +7,5 @@
   "documentation": "https://github.com/mbb842/midea_air_control",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/mbb842/midea_air_control/issues",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
