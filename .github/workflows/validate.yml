@@ -17,8 +17,8 @@ jobs:
         uses: hacs/action@main
         with:
           category: integration
-          # Skip the brands check until the icon PR is merged into
-          # home-assistant/brands. Remove this line once it is merged.
+          # Brand assets ship locally in custom_components/midea_air_control/brand/
+          # (Brands Proxy API, HA 2026.3+), so the brands-repo CDN check is skipped.
           ignore: brands
 
   hassfest:
